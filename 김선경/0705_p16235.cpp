@@ -127,7 +127,7 @@ int main() {
 		}
 	}
 
-	cout << totalTreeCnt << "\n";
+	cout << totalTreeCnt;
 
 	return 0;
 }
