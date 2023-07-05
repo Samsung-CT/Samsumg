@@ -29,7 +29,7 @@ void Debugg() {
         for (int j = 1; j <= N; j++) {
             if (!trees[i][j].empty()) {
                 for (int k = 0; k < trees[i][j].size(); k++) {
-                    cout << trees[i][j][k] << " ";
+                    cout << i << " " << j << " " << trees[i][j][k] << " ";
                 }
             }
         }
@@ -103,8 +103,7 @@ void Winter() {
 
 void Solve() {
     for (int i = 0; i < K; i++) {
-        Debugg();
-        cout << i + 1 << "년 후 \n";
+        // cout << i + 1 << "년 후 \n";
         SpringSummer();
         Fall();
         Winter();
@@ -133,7 +132,7 @@ int main() {
 
     for (int i = 0; i < M; i++) {
         int y, x, age;
-        cin >> y >> x;
+        cin >> y >> x >> age;
         trees[y][x].push_back(age);
     }
 
