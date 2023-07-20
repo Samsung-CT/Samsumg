@@ -16,8 +16,6 @@ void makeDragonCurve() {
         end_x += dx[dir];
         end_y += dy[dir];
 
-        // cout << end_x << " " << end_y << '\n';
-
         map[end_x][end_y] = true;
         dragon_direction.push_back(dir);
     }
