@@ -329,6 +329,7 @@ int main() {
         }
     }
 
+    // 4 ^ 5
     MoveUp(0, map);
     MoveDown(0, map);
     MoveRight(0, map);
