@@ -20,6 +20,7 @@ car car_pos;
 
 int ans = 1;
 
+// 범위를 넘어가는 경우가 없기 때문에 필요없음...
 bool in_range(int r, int c){
     return 1<=r && r<=N-2 && 1<=c && c<=M-2;
 }
