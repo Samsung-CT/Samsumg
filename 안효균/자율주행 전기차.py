@@ -1,7 +1,7 @@
 import copy
 from collections import deque
 
-
+#
 n, m, c = map(int, input().split())
 board = []
 for _ in range(n):
