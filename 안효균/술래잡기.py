@@ -1,5 +1,5 @@
 import copy
-
+#
 n, m, h, k = map(int, input().split())
 runners = []
 for _ in range(m):
