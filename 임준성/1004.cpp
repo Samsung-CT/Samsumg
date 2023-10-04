@@ -79,7 +79,7 @@ int attack() {
 }
 
 void play() {
-	line = N;//성 위치
+	line = N;//성 위치 초기화
 	cpy = board;
 	int score = 0;
 	while (line > 0) {
